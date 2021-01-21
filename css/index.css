@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+#home-section{
+    height: 100vh;
+}
+
+.wrapper{
+    width: 28.125rem;
+    padding: 30px;
+   
+}
+.wrapper .input-data{
+    height: 2.5rem;
+    width: 100%;
+    position: relative;
+}
+.wrapper .input-data input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid silver;
+    outline: none;
+}
+.wrapper .input-data label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.input-data input:focus ~ label,.input-data input:valid ~ label{
+    transform: translateY(-20px);
+    font-size: 14px;
+    color: #19BC81;
+}
+.wrapper .input-data .underline{
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;
+    
+}
+.input-data .underline:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color:#19BC81;
+    transform: scaleX(0);
+    transition: transform 0.3 ease;
+}
+.input-data input:focus ~ .underline:before,.input-data input:valid ~ .underline:before{
+    transform: scaleX(1);
+}
+.anchor{
+    text-decoration: none;
+    color: grey;
+}
+.login-button{
+    height: 8vh;
+    border: none;
+    background-color: #19BC81;
+    color: white;
+    border-radius: 50px;
+    outline: none;
+}
+.coas{
+    background-color: #FB7A72;
+    color: white;
+    height: 6vh;
+    width: 120px;
+    border: none;
+    border-radius: 2px;
+}
+.admin{
+    background-color: #858484;
+    color: white;
+    height: 6vh;
+    width: 120px;
+    border: none;
+    border-radius: 2px;
+}
+.right-side{
+    background: url('../images/Slice\ 1\ \(1\).svg')no-repeat;
+}
