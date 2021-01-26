@@ -1,4 +1,7 @@
-USE `na-crm`;
+DROP DATABASE IF EXISTS na_crm;
+CREATE DATABASE IF NOT EXISTS na_crm
+
+USE na_crm;
 
 CREATE TABLE `users` (
     `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
