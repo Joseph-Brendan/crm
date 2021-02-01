@@ -1,0 +1,9 @@
+{
+    "name": "na/crm",
+    "description": "CRM application for the NA",
+    "type": "project",
+    "license": "Proprietary",
+    "require": {
+        "php": "7.4"
+    }
+}
