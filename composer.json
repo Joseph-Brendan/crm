@@ -4,6 +4,7 @@
     "type": "project",
     "license": "Proprietary",
     "require": {
-        "php": "7.4"
+        "php": "^7.1",
+        "twig/twig": "^3.2"
     }
 }
