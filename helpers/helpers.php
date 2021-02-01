@@ -10,6 +10,16 @@ if (!function_exists('loginUser')) {
 	function loginUser(mysqli $mysqli, string $email, string $password) {
 		$error = [];
 
+		$sql = "SELECT * from users";
+		$stmt = $mysqli->prepare($sql);
+
+		$stmt->execute();
+		$stmt->store_result();
+
+		echo json_encode($stmt->get_result()->fetch_assoc());
+
+		die();
+
 		if (empty($error)) {
 			// Prepare a select statement
 			$sql = "SELECT id, email, password FROM users WHERE email = ?";
