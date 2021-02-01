@@ -31,7 +31,7 @@
 				<div class="mt-5 mb-5">
 					<span class="mt-5 mb-4">DASHBOARD</span>
 					<div class="btn-group dropright">
-						<a href="./entryform.php">
+						<a href="./entryForm.php">
 							<button aria-expanded="false" aria-haspopup="false" class="btn btn-secondary dropdown-toggle ml-5"
 							        data-toggle="" type="button">
 								+ ADD ENTRY

@@ -22,7 +22,7 @@
             <div class="col-10 " style="height: 100vh;">
                 <div class="mt-5 mb-5">
                     <span class="mt-5 mb-4">DASHBOARD</span> <div class="btn-group dropright">
-                        <a href="./entryform.php">
+                        <a href="./entryForm.php">
                             <button type="button" class="btn btn-secondary dropdown-toggle ml-5" data-toggle="" aria-haspopup="false" aria-expanded="false">
                                 + ADD ENTRY
                             </button>
@@ -68,14 +68,14 @@
                         </div>
                     </a>
 
-                    <a href="#" style="text-decoration: none; color: #858484;" class="anchor-hover">
-                        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 16rem; height: 30vh; border-radius: 12px;">
-                            <div class="card-body">
-                                <img src="./images/Slice 2.svg" alt="" class=" mx-auto ">
-
-                            </div>
-                        </div>
-                    </a>
+<!--                    <a href="#" style="text-decoration: none; color: #858484;" class="anchor-hover">-->
+<!--                        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 16rem; height: 30vh; border-radius: 12px;">-->
+<!--                            <div class="card-body">-->
+<!--                                <img src="./images/Slice 2.svg" alt="" class=" mx-auto ">-->
+<!---->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </a>-->
                 </div>
 
                 <button class="mb-4" style="background-color: #FB7A72; color: white; border: none; width: 100px; height: 6vh;">SUMMARY</button>

@@ -2,60 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="789cf66b-f712-4128-8941-7a7cd96e593f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/NA-CRM.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/chrisidakwo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coas.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/auth/admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/auth/coas.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/auth/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/content-footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/content-head.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/dashboard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/entryForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/eqpt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/history.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/kanban.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/technicians.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/vehicle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/vehicledisplay.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/database.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entryForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eqpt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/helpers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/history.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logout-svgrepo-com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kanban.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/layout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/PageTemplate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coas.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/entryform.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eqpt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/history.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory.html" beforeDir="false" afterPath="$PROJECT_DIR$/inventory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kanban.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/contents/inventory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technicians.html" beforeDir="false" afterPath="$PROJECT_DIR$/technicians.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle.html" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicledisplay.html" beforeDir="false" afterPath="$PROJECT_DIR$/vehicledisplay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contents/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/contents/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contents/eqpt.php" beforeDir="false" afterPath="$PROJECT_DIR$/contents/eqpt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contents/history.php" beforeDir="false" afterPath="$PROJECT_DIR$/contents/history.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contents/inventory.php" beforeDir="false" afterPath="$PROJECT_DIR$/contents/inventory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contents/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/contents/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contents/vehicle.php" beforeDir="false" afterPath="$PROJECT_DIR$/contents/vehicle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contents/vehicledisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/contents/vehicledisplay.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +64,7 @@
       <updated>1611655588740</updated>
       <workItem from="1611655590366" duration="76000" />
       <workItem from="1611655670192" duration="579000" />
-      <workItem from="1612181813633" duration="1689000" />
+      <workItem from="1612181813633" duration="1865000" />
     </task>
     <servers />
   </component>
@@ -143,9 +96,9 @@
       <screen x="53" y="24" width="1313" height="744" />
     </state>
     <state x="211" y="24" key="SettingsEditor/53.24.1313.744@53.24.1313.744" timestamp="1611656160302" />
-    <state x="404" y="102" width="611" height="560" key="find.popup" timestamp="1612183505533">
+    <state x="404" y="102" width="611" height="560" key="find.popup" timestamp="1612183634086">
       <screen x="53" y="24" width="1313" height="744" />
     </state>
-    <state x="404" y="102" width="611" height="560" key="find.popup/53.24.1313.744@53.24.1313.744" timestamp="1612183505533" />
+    <state x="404" y="102" width="611" height="560" key="find.popup/53.24.1313.744@53.24.1313.744" timestamp="1612183634086" />
   </component>
 </project>
