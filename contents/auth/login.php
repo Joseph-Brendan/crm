@@ -1,5 +1,3 @@
-<?php echo json_encode($errors) ?>
-
 <section id="home-section">
 	<div class="container-fluid">
 		<div class="row">
