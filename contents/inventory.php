@@ -63,7 +63,6 @@
 								<img src="./images/Group (1).svg" height="20" class="mb-3" alt="">
 								<h6 class="card-subtitle mb-2 text-muted">Technicians</h6>
 								<p class="card-text mt-5">Management Directory For All Technicians</p>
-
 							</div>
 						</div>
 					</a>
