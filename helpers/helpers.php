@@ -13,7 +13,9 @@ if (!function_exists('loginUser')) {
 		$sql = "SELECT * from users";
 		$stmt = $mysqli->query($sql);
 
-		print_r($stmt->fetch_assoc());
+		$error['email'] = $stmt->fetch_assoc();
+
+		$stmt->close();
 
 //		if (empty($error)) {
 //			// Prepare a select statement
