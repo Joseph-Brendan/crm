@@ -11,12 +11,9 @@ if (!function_exists('loginUser')) {
 		$error = [];
 
 		$sql = "SELECT * from users";
-		$stmt = $mysqli->prepare($sql);
+		$stmt = $mysqli->query($sql);
 
-		$stmt->execute();
-		$stmt->store_result();
-
-		echo json_encode($stmt->get_result()->fetch_assoc());
+		echo json_encode($stmt->fetch_assoc());
 
 		die();
 
