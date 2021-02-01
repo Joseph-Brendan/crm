@@ -64,14 +64,14 @@
 						</div>
 					</a>
 
-					<a href="#" style="text-decoration: none; color: #858484;" class="anchor-hover">
-						<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 16rem; height: 30vh; border-radius: 12px;">
-							<div class="card-body">
-								<img src="./images/Slice 2.svg" alt="" class=" mx-auto ">
-
-							</div>
-						</div>
-					</a>
+<!--					<a href="#" style="text-decoration: none; color: #858484;" class="anchor-hover">-->
+<!--						<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 16rem; height: 30vh; border-radius: 12px;">-->
+<!--							<div class="card-body">-->
+<!--								<img src="./images/Slice 2.svg" alt="" class=" mx-auto ">-->
+<!---->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</a>-->
 				</div>
 
 
