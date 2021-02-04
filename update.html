@@ -36,11 +36,7 @@
                 <div class="col-10 " style="height: 100vh;">
                     <div class="mt-5 mb-5">
                         <span class="mt-5 mb-4">DASHBOARD</span> <div class="btn-group dropright">
-                            <a href="./entryform.html">
-                                <button type="button" class="btn btn-secondary dropdown-toggle ml-5" data-toggle="" aria-haspopup="false" aria-expanded="false">
-                                    + ADD ENTRY
-                                </button>
-                            </a>
+                           
                            
                             
                           </div>
@@ -85,7 +81,9 @@
                         <a href="#" style="text-decoration: none; color: #858484;" class="anchor-hover">
                             <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 16rem; height: 30vh; border-radius: 12px;">
                                 <div class="card-body">
-                                  <img src="./images/Slice 2.svg" alt="" class=" mx-auto ">
+                                  <img src="./images/Group 78.svg" height="20" class="mb-3" alt="">
+                                  <h6 class="card-subtitle mb-2 text-muted">Catalogue</h6>
+                                  <p class="card-text mt-5">Management Directory For All Technicians</p>
                                   
                                 </div>
                             </div>
@@ -118,17 +116,28 @@
 
                         <div class="card p-4" style="width: 68rem;">
                             
-                            <h6 class="text-center mb-4">Enter Repair Update</h6>
-            
-                            <input class="p-3" type="text" placeholder="Enter Full Name" style="width: 100%; outline: none;"><br>
-                            <h6 class="mt-5">Select Department</h6>
-                            <select name="department" id="department"  style="width: 100%; outline: none;" class="p-3">
-                                <option value="Mech. Engineering">Mechanical Engineering</option>
-                                <option value="Elect. Engineering">Electrical Engineering</option>
+                            <h6 class="text-center mb-2">Enter Repair Update</h6>
+                            <p class="text-center mb-4">NAEME UNIT</p>
+                            
+                            <h6>Select Name:</h6>
+                            <select name="name" id="name" class="p-3 mt-2">
+                                <option value="Sgt John Umoh">Sgt John Umoh</option>
+                                <option value="Cpt Rose Kanu">Cpt Rose Umoh</option>
+                                <option value="Col Kingsley Pam">Col Kingsley Pam</option>
+                                <option value="Sgt Tony Tony">Sgt Tony Tony</option>
+                                <option value="Col Grace Win">Col Grace Win</option>
+                                <option value="Capt Tom Seyi">Capt Tom Seyi</option>
                             </select>
-    
-                            <input class="p-3 mt-5" type="text" placeholder="Enter Repair Title" style="width: 100%; outline: none;"><br>
+                            <h6 class="mt-5">Date In:</h6>
+                            <input class="p-3 mt-2" type="date" placeholder="Date In" style="width: 100%; outline: none;"><br>
+                            <h6 class="mt-4">Date Out:</h6>
+                            <input class="p-3 mt-2" type="date" placeholder="Date In" style="width: 100%; outline: none;"><br>
+                            <input class="p-3 mt-5" type="text" placeholder="Nature Of Repair" style="width: 100%; outline: none;"><br>
+                            <input class="p-3 mt-5" type="text" placeholder="Spare Part/Material Used" style="width: 100%; outline: none;"><br>
                             <input class="p-3 mt-5" type="text" placeholder="Enter Hardware ID" style="width: 100%; outline: none;"><br>
+                            <input class="p-3 mt-5" type="number" placeholder="Duration Of Repair(hrs)" style="width: 100%; outline: none;"><br>
+                            <input class="p-3 mt-5" type="number" placeholder="Number Of Technicians Used" style="width: 100%; outline: none;"><br>
+                            
                             <textarea class="p-3 mt-5" type="text" style="width: 100%; outline: none;"> Report Summary</textarea><br>
     
                             <button class="mt-5" style="width: 100%; border: none; height: 6vh; border-radius: 40px; background-color: #575757; color: white;">Update Report</button>
