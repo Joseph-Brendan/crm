@@ -1,31 +1,7 @@
 <section style="height:180vh;">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-2" style="background-color: #575757; height: 180vh;">
-				<img alt="Nigerian Army" class="rounded-circle mt-5 mx-auto d-block"
-				     height="60" src="./images/1200px-Emblem_of_the_Nigerian_Army 1.svg">
-				<P class=" text-center text-muted"
-				   style="font-weight:900;font-size: 14px; margin-top: 10px;color: #858484;">NIGERIAN ARMY</P>
-				<div style="height: 1px; background-color: #858484;"></div>
-
-				<ul class="mt-4 justify-content-center">
-					<li class="p-3"><a href="./dashboard.php" style="color: white; text-decoration: none;"><img
-								class="mr-3" height="20" src="./images/Vector (5).svg ">Dashboard</a></li>
-					<li class="p-3"><a href="./kanban.php" style="color: white; text-decoration: none;"><img
-								class="mr-3" height="21" src="./images/tasks-solid 1.svg ">Kanban Board</a></li>
-					<li class="p-3"><a href="#" style="color: white; text-decoration: none;"><img
-								class="mr-3" height="22" src="./images/Vector (6).svg ">Calendar</a></li>
-					<li class="p-3"><a href="#" style="color: white; text-decoration: none;"><img
-								class="mr-3" height="22" src="./images/Vector (7).svg">Notifications</a></li>
-					<li class="p-3"><a href="#" style="color: white; text-decoration: none;"><img
-								class="mr-3" height="18" src="./images/Vector (8).svg ">Mail</a></li>
-					<li class="p-3"><a href="#" style="color: white; text-decoration: none;"><img
-								class="mr-3" height="20" src="./images/Vector (9).svg ">API/Integrations</a></li>
-					<li class="p-3"><a href="#" style="color: white; text-decoration: none;"><img
-								class="mr-3" height="20" src="./images/Vector (10).svg">Settings</a></li>
-				</ul>
-			</div>
-
+			<?php include_once('sidebar.php') ?>
 
 			<div class="col-10 " style="height: 100vh;">
 				<div class="mt-5 mb-5">
@@ -40,56 +16,7 @@
 					</div>
 				</div>
 
-				<div class="d-flex justify-content-between myCards">
-					<a class="anchor-hover" href="#" style="text-decoration: none; color: #858484;">
-						<div class="card shadow p-3 mb-5 bg-white rounded"
-						     style="width: 22rem; height: 30vh; border-radius: 12px;">
-							<div class="card-body">
-								<img alt="" class="mb-3" height="20" src="./images/Vector (11).svg">
-								<h6 class="card-subtitle mb-2 text-muted">Inventory</h6>
-								<p class="card-text mt-5">Overview Management Directory For Vehicle & Equipment
-									Inventory</p>
-
-							</div>
-						</div>
-					</a>
-
-
-					<a class="anchor-hover" href="#" style="text-decoration: none; color: #858484;">
-						<div class="card shadow p-3 mb-5 bg-white rounded"
-						     style="width: 22rem; height: 30vh; border-radius: 12px;">
-							<div class="card-body">
-								<img alt="" class="mb-3" height="20" src="./images/Group.svg">
-								<h6 class="card-subtitle mb-2 text-muted">Vehicle/Equipment</h6>
-								<p class="card-text mt-5">Management Directory For Vehicle & Equipment Inventory</p>
-
-							</div>
-						</div>
-					</a>
-
-					<a class="anchor-hover" href="#" style="text-decoration: none; color: #858484;">
-						<div class="card shadow p-3 mb-5 bg-white rounded"
-						     style="width: 22rem; height: 30vh; border-radius: 12px;">
-							<div class="card-body">
-								<img alt="" class="mb-3" height="20" src="./images/Group (1).svg">
-								<h6 class="card-subtitle mb-2 text-muted">Technicians</h6>
-								<p class="card-text mt-5">Management Directory For All Technicians</p>
-
-							</div>
-						</div>
-					</a>
-
-					<a class="anchor-hover" href="#" style="text-decoration: none; color: #858484;">
-						<div class="card shadow p-3 mb-5 bg-white rounded"
-						     style="width: 16rem; height: 30vh; border-radius: 12px;">
-							<div class="card-body">
-								<img alt="" class=" mx-auto " src="./images/Slice 2.svg">
-
-							</div>
-						</div>
-					</a>
-				</div>
-
+				<?php include_once('dashboard-cards.php') ?>
 
 				<div class="d-flex justify-content-between">
 					<div class="card p-4" style="width: 18rem;">
