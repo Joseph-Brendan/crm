@@ -12,7 +12,7 @@
 .wrapper{
     width: 28.125rem;
     padding: 30px;
-   
+
 }
 .wrapper .input-data{
     height: 2.5rem;
@@ -44,7 +44,7 @@
     bottom: 0px;
     height: 2px;
     width: 100%;
-    
+
 }
 .input-data .underline:before{
     position: absolute;

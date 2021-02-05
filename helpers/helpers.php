@@ -8,8 +8,6 @@ if (!function_exists('loginUser')) {
 	 * @return array|void
 	 */
 	function loginUser(mysqli $mysqli, string $email, string $password) {
-		echo 'Email: ' . $email;
-		echo 'Password: ' . $password;
 		$error = [];
 
 		if (empty($error)) {
