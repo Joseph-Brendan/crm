@@ -6,7 +6,7 @@ require_once('lib/PageTemplate.php');
 
 if (!isset($tpl)) {
 	$tpl = new PageTemplate();
-	$tpl->PageTitle = 'Dashboard';
+	$tpl->PageTitle = 'Vehicle Maintenance History';
 	$tpl->ContentHead = 'contents/content-head.php';
 	$tpl->ContentBody = 'contents/history.php';
 	$tpl->ContentFooter = 'contents/content-footer.php';
