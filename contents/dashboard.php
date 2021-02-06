@@ -217,9 +217,6 @@
                     </div>
                 </div>
 
-
-
-
                 <div class="d-flex justify-content-between mt-5">
                     <div class="card p-3 mb-5" style="width: 32rem; height: 35vh;">
 
@@ -236,7 +233,6 @@
                         <img src="./images/Slice 3 (1).svg" alt="">
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
