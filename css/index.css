@@ -2,8 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+}
+#main-container-nigerian-army{
+    height: 100vh;
+    width: 100%;
+    background-color: #4F81BD;
+    color: white;
 }
 #home-section{
     height: 100vh;
